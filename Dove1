@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Property Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Elite Property Management</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Welcome to Elite Property Management</h2>
+        <p>We provide top-notch property management services to help you maximize your real estate investments.</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+        
+        <h3>Our Services</h3>
+        <ul>
+            <li>Tenant Screening</li>
+            <li>Rent Collection</li>
+            <li>Property Maintenance</li>
+            <li>Financial Reporting</li>
+        </ul>
+        
+        <h3>Why Choose Us?</h3>
+        <p>With years of experience and a dedicated team, we ensure your properties are well-managed and your tenants are satisfied.</p>
+        
+        <h3>Contact Us</h3>
+        <p>Phone: (555) 123-4567</p>
+        <p>Email: info@elitepropertymanagement.com</p>
+        <p>Address: 123 Main St, Anytown, USA 12345</p>
+    </div>
+</body>
+</html>
